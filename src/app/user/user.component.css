@@ -1,6 +1,14 @@
-.bgimage {
-  background-image: url(“assets/background.png”);
+img:focus {
+    outline: 2px #F97A26;
+
 }
+
+
+.flex-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 .boton{

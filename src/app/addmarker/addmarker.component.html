@@ -3,27 +3,32 @@
 
 
   <p  align="center" style="margin-right: 36pt; margin-left: 36pt; margin-top: 30pt; color: #5D5D5D;  font-size: 16pt; padding: 0pt">
-            Ud. Esta Reportando un Incidente
+            INDICA EL TIPO DE REPORTE:
         </p>
   <hr>
 <table align="center" cellspacing="5" cellpadding="5" border="0" style="border: none; border-collapse: collapse;">
+  <a >POSITIVO</a>
   <tr>
   <td>
-    <img src="assets/ramp1.png" (click)="noRamp($event)"/>
+
+    <img src="assets/parking.png" (click)="withParking($event)"/>
+
   </td>
   <td>
-    <img src="assets/ramp1.png" (click)="withRamp($event)"/>
+    <img src="assets/ramp.png" (click)="withRamp($event)"/>
   </td>
   </tr>
   <tr>
     <td> <br/></td>
   </tr>
+  <a>NEGATIVO</a>
   <tr>
     <td>
-      <img src="assets/ramp1.png" (click)="noParking($event)"/>
+      <img src="assets/noparking.png" (click)="noParking($event)"/>
     </td>
     <td>
-      <img src="assets/ramp1.png" (click)="withParking($event)"/>
+
+      <img src="assets/noramp.png" (click)="noRamp($event)"/>
     </td>
   </tr>
   </table>

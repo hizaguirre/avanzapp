@@ -1,41 +1,22 @@
 <div class="container" >
         <div class="row" style="font-type: 'Typeface'">
     <div class="col-md-12 bgimage">
-      <div  align="center" style="color:#FB7A0A; margin-top:85pt; font-size: 23pt; letter-spacing: 0.23pt">TIPO DE USERIO</div>
+      <div  align="center" style="color:#FB7A0A; margin-top:85pt; font-size: 23pt; letter-spacing: 0.23pt">TIPO DE USUARIO</div>
       <br>
-      <div align="center">
-      <img src="assets/imagotipo.png" />
+      <div class=".flex-grid" align="center">
+        <div>
+          <img (click)="loginInto($event)" class="img_pad" src="assets/asistente.png" />
+          <img (click)="loginInto($event)" class="img_pad" src="assets/usuario.png" />
+
+        </div>
+        <div class=".flex-grid" align="center">
+          <a style="padding-right: 60px">Usuario</a>
+          <a style="padding-left: 60px">Asistente</a>
+        </div>
         </div>
 
 
 
-        <p  align="center" style="margin-right: 36pt; margin-left: 36pt; margin-top: 30pt; color: #5D5D5D;  font-size: 16pt; padding: 0pt">
-            O ingresa tu usuario y contraseña.
-        </p>
-
-        <form role="form" method="post" id="reused_form"  align="left" >
-            <div align="center">
-                <label for="name" style="color: #5D5D5D">
-                    Usuario</label>
-                <input align="center" type="text" class="form-control login-inputs"
-                id="name" name="name"  required maxlength="50" >
-
-            </div>
-            <div align="center">
-                <label style="margin-left: -332px" for="email"  style="color: #5D5D5D">
-                    Contraseña</label>
-                <input align="center" type="password" class="form-control login-inputs"
-                id="email" name="email" required maxlength="50">
-            </div>
-            <br>
-             <div align="center">
-            <button (click)="loginInto($event)" style="background-color: #FB380A; color: white;
- border-radius: 8pt;
- height: 45pt;
- width: 322pt;
-  font-size: 20pt; line-height: 23pt; letter-spacing: 0.2pt;" class="login-button btn">Vamos!</button>
-             </div>
-        </form>
         <div id="success_message" style="width:100%; height:100%; display:none; ">
             <h3>Sent your message successfully!</h3>
         </div>
