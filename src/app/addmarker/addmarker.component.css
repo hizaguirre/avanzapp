@@ -1,0 +1,41 @@
+.controls {
+     margin-top: 16px;
+     border: 1px solid transparent;
+     border-radius: 2px 0 0 2px;
+     box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     height: 32px;
+     outline: none;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+     position: relative;
+     left: 45%;
+     top: 3%;
+     width: 30%
+}
+ #form {
+     width: 250px;
+     margin: 0 auto;
+     height: 50px;
+}
+ #form p {
+     text-align: center;
+}
+ #form label {
+     font-size: 20px;
+}
+ input[type="radio"] {
+     display: none;
+}
+ label {
+     color: grey;
+}
+ .clasificacion {
+     direction: rtl;
+     unicode-bidi: bidi-override;
+}
+ label:hover, label:hover ~ label {
+     color: orange;
+}
+ input[type="radio"]:checked ~ label {
+     color: orange;
+}

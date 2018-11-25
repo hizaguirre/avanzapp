@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+agm-map {
+  height: 800px;
+}
+
+
+.login-inputs{
+ border-radius: 8pt;
+ height: 45pt;
+ width: 323pt;
+ margin-right: 10pt;
+}
+​
+.login-button{
+ background-color: #FB380A;
+ color: white;
+ border-radius: 8pt;
+ height: 45pt;
+ width: 322pt;
+  font-size: 20pt; line-height: 23pt; letter-spacing: 0.2pt;
+}
+
+label {
+  margin-left: -332px
+}
+
+.controls {
+        margin-top: 16px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        position: relative;
+        left: 45%;
+        top: 3%;
+      }
+
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    border-radius: 2%;
+}
+
+button:focus{
+    outline: none;
+}
+
+body {
+  background-image: url(assets/background.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-size: contain;
+}
